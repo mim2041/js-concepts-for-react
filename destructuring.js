@@ -22,7 +22,7 @@ const [firstMovie, secondMovie] = student.movies;
 
 // object destructuring
 // const {name, age} = {name: 'alu', age: 14}
-const {name, age} = {id: 12, name: 'alu', age: 14};
+// const {name, age} = {id: 12, name: 'alu', age: 14};
 
 const employee = {
     ide: 'VS Code',
@@ -46,3 +46,4 @@ const employee = {
 const {machine, ide} = employee;
 const {weight, address} = employee.specification;
 const {brand} = employee.specification.watch;
+
